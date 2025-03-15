@@ -1,410 +1,410 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour hassounds="0" start="node4" appversion="7.1.8" apprev="20986">
+<tour hassounds="0" apprev="20986" appversion="7.1.8" start="node4">
   <panorama id="node4">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3660" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3660">
-      <level preload="0" predecode="0" width="3660" height="3660"/>
-      <level preload="0" predecode="0" width="1830" height="1830"/>
-      <level preload="0" predecode="0" width="915" height="915"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3660" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3660" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3660" height="3660" predecode="0"/>
+      <level preload="0" width="1830" height="1830" predecode="0"/>
+      <level preload="0" width="915" height="915" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="114.867" fovmode="2">
-      <start tilt="-0.27" pan="2.26" projection="4" fov="100"/>
-      <flyin tilt="0.46" pan="2.59" projection="4" fov="100"/>
+      <start fov="100" projection="4" tilt="-0.27" pan="2.26"/>
+      <flyin fov="100" projection="4" tilt="0.46" pan="2.59"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="jp-image.space" comment="" longitude="121.59686073" author="James Lee" title="大廳日間" datetime="2025/1/14 11:29" customnodeid="" nodeid="node4" heading="114.867" description="" tags="canonR6|demo|HDR|JPdemo|Pano" latitude="23.90825886" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="-0.45" target="$fwd" pan="-53.45" title="麥坊" description="" skinid="ht_node" id="Point02" url="{node9}"/>
-      <hotspot target="$fwd" title="大廳 英倫小平台" distance="18.0308" skinid="ht_node" id="Point03" tilt="0.44" pan="-357.59" description="" url="{node5}"/>
-      <hotspot tilt="10.41" target="0.7/-2.5/100.0" pan="-336.94" title="大廳夜間" description="" skinid="ht_node_Day&amp;Night" id="Point04" url="{node12}"/>
-      <hotspot tilt="10.32" target="-0.1/-0.7/100.0" pan="-19.02" title="雙魚眼鏡頭＿大廳" description="切換至雙魚眼360相機拍攝的環景照片。&#xa;&#xa;無論是在解析度、色彩的演繹，雙魚眼360相機由於感光元件的大小，色彩深度與解析度都無法與單眼相機匹敵，唯一優點只有輕便。" skinid="ht_node_camera_switch" id="Point05" url="{node14}"/>
-      <hotspot target="$fwd" title="戶外觀景台" distance="31.358" skinid="ht_node" id="Point01" tilt="0" pan="172.834" description="" url="{node10}"/>
-      <hotspot target="$fwd" title="麥坊_雙魚眼" distance="14.3978" skinid="ht_node" id="Point06" tilt="0" pan="-51.5474" description="" url="{node15}"/>
+    <userdata tags="canonR6|demo|HDR|JPdemo|Pano" nodeid="node4" copyright="jp-image.space" description="" latitude="23.90825886" datetime="2025/1/14 11:29" info="" title="大廳日間" author="James Lee" heading="114.867" longitude="121.59686073" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node9}" tilt="-0.45" skinid="ht_node" id="Point02" title="麥坊" description="" target="$fwd" pan="-53.45"/>
+      <hotspot url="{node5}" tilt="0.44" skinid="ht_node" id="Point03" description="" pan="-357.59" title="大廳 英倫小平台" target="$fwd" distance="18.0308"/>
+      <hotspot url="{node12}" tilt="10.41" skinid="ht_node_Day&amp;Night" id="Point04" title="大廳夜間" description="" target="0.7/-2.5/100.0" pan="-336.94"/>
+      <hotspot url="{node14}" tilt="10.32" skinid="ht_node_camera_switch" id="Point05" title="雙魚眼鏡頭＿大廳" description="切換至雙魚眼360相機拍攝的環景照片。&#xa;&#xa;無論是在解析度、色彩的演繹，雙魚眼360相機由於感光元件的大小，色彩深度與解析度都無法與單眼相機匹敵，唯一優點只有輕便。" target="-0.1/-0.7/100.0" pan="-19.02"/>
+      <hotspot url="{node10}" tilt="0" skinid="ht_node" id="Point01" description="" pan="181.98" title="戶外觀景台" target="$fwd" distance="29.4465"/>
+      <hotspot url="{node15}" tilt="0" skinid="ht_node" id="Point06" description="" pan="-51.5474" title="麥坊_雙魚眼" target="$fwd" distance="14.3978"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node14">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="2974" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="2974">
-      <level preload="0" predecode="0" width="2974" height="2974"/>
-      <level preload="0" predecode="0" width="1487" height="1487"/>
-      <level preload="0" predecode="0" width="743" height="743"/>
-      <level preload="1" predecode="1" width="371" height="371"/>
+    <input levelingroll="0" width="2974" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2974" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="2974" height="2974" predecode="0"/>
+      <level preload="0" width="1487" height="1487" predecode="0"/>
+      <level preload="0" width="743" height="743" predecode="0"/>
+      <level preload="1" width="371" height="371" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="1.03" pan="0.99" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="1.03" pan="0.99"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="" author="" title="雙魚眼鏡頭＿大廳" datetime="" customnodeid="" nodeid="node14" heading="0" description="" tags="" latitude="" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="9.38" target="2.2/-0.2/100.0" pan="-20.9" title="大廳日間" description="切換至使用單眼拍攝的環景照片。&#xa;&#xa;單眼相機拍攝的照片，無論在解析度或是在色彩演繹上，仍然是最佳首選。" skinid="ht_node_camera_switch" id="Point01" url="{node4}"/>
+    <userdata tags="" nodeid="node14" copyright="" description="" latitude="" datetime="" info="" title="雙魚眼鏡頭＿大廳" author="" heading="0" longitude="" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node4}" tilt="9.38" skinid="ht_node_camera_switch" id="Point01" title="大廳日間" description="切換至使用單眼拍攝的環景照片。&#xa;&#xa;單眼相機拍攝的照片，無論在解析度或是在色彩演繹上，仍然是最佳首選。" target="2.2/-0.2/100.0" pan="-20.9"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node5">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3659" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3659">
-      <level preload="0" predecode="0" width="3659" height="3659"/>
-      <level preload="0" predecode="0" width="1829" height="1829"/>
-      <level preload="0" predecode="0" width="914" height="914"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3659" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3659" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3659" height="3659" predecode="0"/>
+      <level preload="0" width="1829" height="1829" predecode="0"/>
+      <level preload="0" width="914" height="914" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="99.4998" fovmode="2">
-      <start tilt="1.02" pan="-11.96" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="1.02" pan="-11.96"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="jp-image.space" comment="" longitude="121.59702703" author="James Lee" title="大廳 英倫小平台" datetime="2025/1/14 11:33" customnodeid="" nodeid="node5" heading="99.4998" description="" tags="canonR6|demo|HDR|JPdemo|Pano" latitude="23.90820246" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="$fwd" title="大廳日間" distance="18.0308" skinid="ht_node" id="Point01" tilt="-0.58" pan="-190.24" description="" url="{node4}"/>
-      <hotspot tilt="0.53" target="$fwd" pan="-117.2" title="麥坊" description="" skinid="ht_node" id="Point02" url="{node9}"/>
+    <userdata tags="canonR6|demo|HDR|JPdemo|Pano" nodeid="node5" copyright="jp-image.space" description="" latitude="23.90820246" datetime="2025/1/14 11:33" info="" title="大廳 英倫小平台" author="James Lee" heading="99.4998" longitude="121.59702703" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node4}" tilt="-0.58" skinid="ht_node" id="Point01" description="" pan="-190.24" title="大廳日間" target="$fwd" distance="18.0308"/>
+      <hotspot url="{node9}" tilt="0.53" skinid="ht_node" id="Point02" title="麥坊" description="" target="$fwd" pan="-117.2"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node12">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="2779" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="2779">
-      <level preload="0" predecode="0" width="2779" height="2779"/>
-      <level preload="0" predecode="0" width="1389" height="1389"/>
-      <level preload="0" predecode="0" width="694" height="694"/>
-      <level preload="1" predecode="1" width="347" height="347"/>
+    <input levelingroll="0" width="2779" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2779" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="2779" height="2779" predecode="0"/>
+      <level preload="0" width="1389" height="1389" predecode="0"/>
+      <level preload="0" width="694" height="694" predecode="0"/>
+      <level preload="1" width="347" height="347" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="0.63" pan="-0.59" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="0.63" pan="-0.59"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="" author="" title="大廳夜間" datetime="2025/1/13 20:07" customnodeid="" nodeid="node12" heading="0" description="" tags="canonR6|demo|JPdemo|Pano" latitude="" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="10.36" target="1.8/-1.6/100.0" pan="-339.09" title="大廳日間" description="" skinid="ht_node_Day&amp;Night" id="Point01" url="{node4}"/>
+    <userdata tags="canonR6|demo|JPdemo|Pano" nodeid="node12" copyright="" description="" latitude="" datetime="2025/1/13 20:07" info="" title="大廳夜間" author="" heading="0" longitude="" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node4}" tilt="10.36" skinid="ht_node_Day&amp;Night" id="Point01" title="大廳日間" description="" target="1.8/-1.6/100.0" pan="-339.09"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node10">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3661" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3661">
-      <level preload="0" predecode="0" width="3661" height="3661"/>
-      <level preload="0" predecode="0" width="1830" height="1830"/>
-      <level preload="0" predecode="0" width="915" height="915"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3661" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3661" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3661" height="3661" predecode="0"/>
+      <level preload="0" width="1830" height="1830" predecode="0"/>
+      <level preload="0" width="915" height="915" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-44.2693" fovmode="2">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+    <view pannorth="-53.2698" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="121.59659922" author="" title="戶外觀景台" datetime="" customnodeid="" nodeid="node10" heading="-44.2693" description="" tags="Pano" latitude="23.90840844" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="$fwd" title="大廳日間" distance="31.358" skinid="ht_node" id="Point01" tilt="0" pan="-166.302" description="" url="{node4}"/>
-      <hotspot target="$fwd" title="四季花園證婚池" distance="95.9163" skinid="ht_node" id="Point02" tilt="-0.4" pan="-228.75" description="" url="{node13}"/>
-      <hotspot target="$fwd" title="詩人花園" distance="135.393" skinid="ht_node" id="Point03" tilt="0" pan="-101.811" description="" url="{node6}"/>
-      <hotspot tilt="-1.28" target="_blank" pan="-67.72" title="太平洋公園" description="太平洋公園導覽連結" skinid="ht_url" id="Point04" url="https://jpimagestudio.github.io/PacificOceanPark/"/>
-      <hotspot tilt="-1.11" target="_blank" pan="-63.57" title="將軍府1936" description="將軍府1936 文化圓區" skinid="ht_url" id="Point05" url="https://jpimagestudio.github.io/Jiang_Jun_Fu/"/>
-      <hotspot tilt="-1.02" target="_blank" pan="-57.84" title="又一村文創園區" description="" skinid="ht_url" id="Point06" url="https://jpimagestudio.github.io/YouyitSun/"/>
-      <hotspot tilt="-1.62" target="_blank" pan="-38.38" title="知卡宣公園" description="知卡宣公園導覽" skinid="ht_url" id="Point07" url="https://jpimagestudio.github.io/Cikasuan_Park/"/>
-      <hotspot tilt="-0.98" target="_blank" pan="-60.13" title="花東原創生活節 2022" description="文創園區" skinid="ht_url" id="Point08" url="https://jpimagestudio.github.io/OLAF-2022/"/>
+    <userdata tags="Pano" nodeid="node10" copyright="" description="" latitude="23.90836185" datetime="" info="" title="戶外觀景台" author="" heading="-53.2698" longitude="121.59659386" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node4}" tilt="0" skinid="ht_node" id="Point01" description="" pan="-166.156" title="大廳日間" target="$fwd" distance="29.4465"/>
+      <hotspot url="{node13}" tilt="-0.4" skinid="ht_node" id="Point02" description="" pan="-228.75" title="四季花園證婚池" target="$fwd" distance="91.2644"/>
+      <hotspot url="{node6}" tilt="0" skinid="ht_node" id="Point03" description="" pan="-109.127" title="詩人花園" target="$fwd" distance="138.693"/>
+      <hotspot url="https://jpimagestudio.github.io/PacificOceanPark/" tilt="-1.28" skinid="ht_url" id="Point04" title="太平洋公園" description="太平洋公園導覽連結" target="_blank" pan="-67.72"/>
+      <hotspot url="https://jpimagestudio.github.io/Jiang_Jun_Fu/" tilt="-1.11" skinid="ht_url" id="Point05" title="將軍府1936" description="將軍府1936 文化圓區" target="_blank" pan="-63.57"/>
+      <hotspot url="https://jpimagestudio.github.io/YouyitSun/" tilt="-1.02" skinid="ht_url" id="Point06" title="又一村文創園區" description="" target="_blank" pan="-57.84"/>
+      <hotspot url="https://jpimagestudio.github.io/Cikasuan_Park/" tilt="-1.62" skinid="ht_url" id="Point07" title="知卡宣公園" description="知卡宣公園導覽" target="_blank" pan="-38.38"/>
+      <hotspot url="https://jpimagestudio.github.io/OLAF-2022/" tilt="-0.98" skinid="ht_url" id="Point08" title="花東原創生活節 2022" description="文創園區" target="_blank" pan="-60.13"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3658" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3658">
-      <level preload="0" predecode="0" width="3658" height="3658"/>
-      <level preload="0" predecode="0" width="1829" height="1829"/>
-      <level preload="0" predecode="0" width="914" height="914"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3658" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3658" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3658" height="3658" predecode="0"/>
+      <level preload="0" width="1829" height="1829" predecode="0"/>
+      <level preload="0" width="914" height="914" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="79.8138" fovmode="2">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="121.59752727" author="" title="海側步道 南翼" datetime="" customnodeid="" nodeid="node1" heading="79.8138" description="" tags="Pano" latitude="23.90754286" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="$fwd" title="水月池畔證婚亭" distance="134.807" skinid="ht_node" id="Point02" tilt="-0.21" pan="-308.99" description="" url="{node2}"/>
-      <hotspot target="$fwd" title="星空步道入口" distance="81.8637" skinid="ht_node" id="Point01" tilt="0" pan="-97.8961" description="" url="{node7}"/>
+    <userdata tags="Pano" nodeid="node1" copyright="" description="" latitude="23.90754286" datetime="" info="" title="海側步道 南翼" author="" heading="79.8138" longitude="121.59752727" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node2}" tilt="-0.21" skinid="ht_node" id="Point02" description="" pan="-308.99" title="水月池畔證婚亭" target="$fwd" distance="134.807"/>
+      <hotspot url="{node7}" tilt="0" skinid="ht_node" id="Point01" description="" pan="-97.8961" title="星空步道入口" target="$fwd" distance="81.8637"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node2">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3658" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3658">
-      <level preload="0" predecode="0" width="3658" height="3658"/>
-      <level preload="0" predecode="0" width="1829" height="1829"/>
-      <level preload="0" predecode="0" width="914" height="914"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3658" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3658" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3658" height="3658" predecode="0"/>
+      <level preload="0" width="1829" height="1829" predecode="0"/>
+      <level preload="0" width="914" height="914" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="132.335" fovmode="2">
-      <start tilt="0.64" pan="41" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="0.64" pan="41"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="121.59815758" author="" title="水月池畔證婚亭" datetime="" customnodeid="" nodeid="node2" heading="132.335" description="" tags="Pano" latitude="23.90860951" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="$fwd" title="海側步道 南翼" distance="134.807" skinid="ht_node" id="Point02" tilt="0.89" pan="-75.91" description="" url="{node1}"/>
-      <hotspot tilt="6.29" target="_blank" pan="-229.25" title="" description="" skinid="ht_url" id="Point03" url=""/>
-      <hotspot target="$fwd" title="水悅池" distance="24.2998" skinid="ht_node" id="Point01" tilt="0" pan="35.5681" description="" url="{node3}"/>
+    <userdata tags="Pano" nodeid="node2" copyright="" description="" latitude="23.90860951" datetime="" info="" title="水月池畔證婚亭" author="" heading="132.335" longitude="121.59815758" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node1}" tilt="0.89" skinid="ht_node" id="Point02" description="" pan="-75.91" title="海側步道 南翼" target="$fwd" distance="134.807"/>
+      <hotspot url="" tilt="6.29" skinid="ht_url" id="Point03" title="" description="" target="_blank" pan="-229.25"/>
+      <hotspot url="{node3}" tilt="0" skinid="ht_node" id="Point01" description="" pan="35.5681" title="水悅池" target="$fwd" distance="24.2998"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3657" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3657">
-      <level preload="0" predecode="0" width="3657" height="3657"/>
-      <level preload="0" predecode="0" width="1828" height="1828"/>
-      <level preload="0" predecode="0" width="914" height="914"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3657" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3657" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3657" height="3657" predecode="0"/>
+      <level preload="0" width="1828" height="1828" predecode="0"/>
+      <level preload="0" width="914" height="914" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-124.934" fovmode="2">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="jp-image.space" comment="" longitude="121.59839496" author="James Lee" title="水悅池" datetime="2025/1/14 11:15" customnodeid="" nodeid="node3" heading="-124.934" description="" tags="canonR6|demo|HDR|Pano" latitude="23.90858376" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="$fwd" title="詩人花園" distance="86.5546" skinid="ht_node" id="Point02" tilt="3.03" pan="-135.98" description="" url="{node6}"/>
-      <hotspot target="$fwd" title="水月池畔證婚亭" distance="24.2998" skinid="ht_node" id="Point01" tilt="0" pan="-41.701" description="" url="{node2}"/>
+    <userdata tags="canonR6|demo|HDR|Pano" nodeid="node3" copyright="jp-image.space" description="" latitude="23.90858376" datetime="2025/1/14 11:15" info="" title="水悅池" author="James Lee" heading="-124.934" longitude="121.59839496" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node6}" tilt="3.03" skinid="ht_node" id="Point02" description="" pan="-135.98" title="詩人花園" target="$fwd" distance="86.5546"/>
+      <hotspot url="{node2}" tilt="0" skinid="ht_node" id="Point01" description="" pan="-41.701" title="水月池畔證婚亭" target="$fwd" distance="24.2998"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node6">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3659" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3659">
-      <level preload="0" predecode="0" width="3659" height="3659"/>
-      <level preload="0" predecode="0" width="1829" height="1829"/>
-      <level preload="0" predecode="0" width="914" height="914"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3659" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3659" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3659" height="3659" predecode="0"/>
+      <level preload="0" width="1829" height="1829" predecode="0"/>
+      <level preload="0" width="914" height="914" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="190.188" fovmode="2">
-      <start tilt="2.03" pan="37.27" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="2.03" pan="37.27"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="121.59772307" author="" title="詩人花園" datetime="" customnodeid="" nodeid="node6" heading="190.188" description="" tags="Pano" latitude="23.90906191" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="17.7/-4.2/100.0" title="水悅池" distance="86.5546" skinid="ht_node" id="Point02" tilt="0.48" pan="-256.97" description="" url="{node3}"/>
-      <hotspot target="$fwd" title="戶外觀景台" distance="135.393" skinid="ht_node" id="Point01" tilt="0" pan="312.645" description="" url="{node10}"/>
+    <userdata tags="Pano" nodeid="node6" copyright="" description="" latitude="23.90906191" datetime="" info="" title="詩人花園" author="" heading="190.188" longitude="121.59772307" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node3}" tilt="0.48" skinid="ht_node" id="Point02" description="" pan="-256.97" title="水悅池" target="17.7/-4.2/100.0" distance="86.5546"/>
+      <hotspot url="{node10}" tilt="0" skinid="ht_node" id="Point01" description="" pan="314.331" title="戶外觀景台" target="$fwd" distance="138.693"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node7">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3661" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3661">
-      <level preload="0" predecode="0" width="3661" height="3661"/>
-      <level preload="0" predecode="0" width="1830" height="1830"/>
-      <level preload="0" predecode="0" width="915" height="915"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3661" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3661" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3661" height="3661" predecode="0"/>
+      <level preload="0" width="1830" height="1830" predecode="0"/>
+      <level preload="0" width="915" height="915" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-8.84898" fovmode="2">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="jp-image.space" comment="" longitude="121.59755945" author="James Lee" title="星空步道入口" datetime="2025/1/14 10:56" customnodeid="" nodeid="node7" heading="-8.84898" description="" tags="canonR6|demo|HDR|JPdemo|Pano" latitude="23.90680723" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="$fwd" title="四季花園" distance="92.4676" skinid="ht_node" id="Point01" tilt="-0.2" pan="-311.59" description="" url="{node8}"/>
-      <hotspot target="$fwd" title="海側步道 南翼" distance="81.8637" skinid="ht_node" id="Point02" tilt="0" pan="-6.55885" description="" url="{node1}"/>
+    <userdata tags="canonR6|demo|HDR|JPdemo|Pano" nodeid="node7" copyright="jp-image.space" description="" latitude="23.90680723" datetime="2025/1/14 10:56" info="" title="星空步道入口" author="James Lee" heading="-8.84898" longitude="121.59755945" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node8}" tilt="-0.2" skinid="ht_node" id="Point01" description="" pan="-311.59" title="四季花園" target="$fwd" distance="92.4676"/>
+      <hotspot url="{node1}" tilt="0" skinid="ht_node" id="Point02" description="" pan="-6.55885" title="海側步道 南翼" target="$fwd" distance="81.8637"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node13">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3655" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3655">
-      <level preload="0" predecode="0" width="3655" height="3655"/>
-      <level preload="0" predecode="0" width="1827" height="1827"/>
-      <level preload="0" predecode="0" width="913" height="913"/>
-      <level preload="1" predecode="1" width="456" height="456"/>
+    <input levelingroll="0" width="3655" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3655" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3655" height="3655" predecode="0"/>
+      <level preload="0" width="1827" height="1827" predecode="0"/>
+      <level preload="0" width="913" height="913" predecode="0"/>
+      <level preload="1" width="456" height="456" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-21.1832" fovmode="2">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="jp-image.space" comment="" longitude="121.59692243" author="James Lee" title="四季花園證婚池" datetime="2025/1/14 10:40" customnodeid="" nodeid="node13" heading="-21.1832" description="" tags="canonR6|demo|HDR|JPdemo|Pano" latitude="23.90759803" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="-56.6/0.3/100.0" title="戶外觀景台" distance="95.9163" skinid="ht_node" id="Point02" tilt="3.14" pan="-289.4" description="" url="{node10}"/>
-      <hotspot target="$fwd" title="四季花園" distance="17.1393" skinid="ht_node" id="Point01" tilt="0" pan="-176.249" description="" url="{node8}"/>
+    <userdata tags="canonR6|demo|HDR|JPdemo|Pano" nodeid="node13" copyright="jp-image.space" description="" latitude="23.90759803" datetime="2025/1/14 10:40" info="" title="四季花園證婚池" author="James Lee" heading="-21.1832" longitude="121.59692243" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node10}" tilt="3.14" skinid="ht_node" id="Point02" description="" pan="-289.4" title="戶外觀景台" target="-56.6/0.3/100.0" distance="91.2644"/>
+      <hotspot url="{node8}" tilt="0" skinid="ht_node" id="Point01" description="" pan="-176.249" title="四季花園" target="$fwd" distance="17.1393"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node8">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3662" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3662">
-      <level preload="0" predecode="0" width="3662" height="3662"/>
-      <level preload="0" predecode="0" width="1831" height="1831"/>
-      <level preload="0" predecode="0" width="915" height="915"/>
-      <level preload="1" predecode="1" width="457" height="457"/>
+    <input levelingroll="0" width="3662" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3662" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3662" height="3662" predecode="0"/>
+      <level preload="0" width="1831" height="1831" predecode="0"/>
+      <level preload="0" width="915" height="915" predecode="0"/>
+      <level preload="1" width="457" height="457" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-26.3217" fovmode="2">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="jp-image.space" comment="" longitude="121.59699351" author="James Lee" title="四季花園" datetime="2025/1/14 10:48" customnodeid="" nodeid="node8" heading="-26.3217" description="" tags="canonR6|demo|HDR|JPdemo|Pano" latitude="23.90745826" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="$fwd" title="星空步道入口" distance="92.4676" skinid="ht_node" id="Point02" tilt="-0.24" pan="-194.26" description="" url="{node7}"/>
-      <hotspot target="$fwd" title="四季花園證婚池" distance="17.1393" skinid="ht_node" id="Point01" tilt="0" pan="-1.38722" description="" url="{node13}"/>
+    <userdata tags="canonR6|demo|HDR|JPdemo|Pano" nodeid="node8" copyright="jp-image.space" description="" latitude="23.90745826" datetime="2025/1/14 10:48" info="" title="四季花園" author="James Lee" heading="-26.3217" longitude="121.59699351" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node7}" tilt="-0.24" skinid="ht_node" id="Point02" description="" pan="-194.26" title="星空步道入口" target="$fwd" distance="92.4676"/>
+      <hotspot url="{node13}" tilt="0" skinid="ht_node" id="Point01" description="" pan="-1.38722" title="四季花園證婚池" target="$fwd" distance="17.1393"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node9">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="3646" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="3646">
-      <level preload="0" predecode="0" width="3646" height="3646"/>
-      <level preload="0" predecode="0" width="1823" height="1823"/>
-      <level preload="0" predecode="0" width="911" height="911"/>
-      <level preload="1" predecode="1" width="455" height="455"/>
+    <input levelingroll="0" width="3646" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3646" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="3646" height="3646" predecode="0"/>
+      <level preload="0" width="1823" height="1823" predecode="0"/>
+      <level preload="0" width="911" height="911" predecode="0"/>
+      <level preload="1" width="455" height="455" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="-0.2" pan="65.44" projection="4" fov="100"/>
-      <flyin tilt="-0.38" pan="64.78" projection="4" fov="100"/>
+      <start fov="100" projection="4" tilt="-0.2" pan="65.44"/>
+      <flyin fov="100" projection="4" tilt="-0.38" pan="64.78"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="jp-image.space" comment="" longitude="" author="James Lee" title="麥坊" datetime="2025/1/14 11:38" customnodeid="" nodeid="node9" heading="0" description="Canon R6 拍攝環景" tags="canonR6|demo|HDR|JPdemo|Pano" latitude="" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="17.7" target="$fwd" pan="-304.85" title="麥坊_iphone" description="切換至使用iphone拍攝的環景照片。&#xa;&#xa;iPhone 16 pro拍攝的照片，在解析度上與單眼拍攝差不多，但因感光元件太小，在色階寬容度上，甚至低過雙魚眼相機。" skinid="ht_node_camera_switch" id="Point02" url="{node11}"/>
-      <hotspot tilt="17.73" target="$fwd" pan="-284.23" title="麥坊_雙魚眼" description="切換至雙魚眼360相機拍攝的環景照片。&#xa;無論是在解析度、色彩的演繹，雙魚眼360相機由於感光元件的大小，色彩深度與解析度都無法與單眼相機匹敵，唯一優點只有輕便。" skinid="ht_node_camera_switch" id="Point03" url="{node15}"/>
-      <hotspot tilt="0.09" target="$fwd" pan="-46.48" title="大廳 英倫小平台" description="" skinid="ht_node" id="Point01" url="{node5}"/>
+    <userdata tags="canonR6|demo|HDR|JPdemo|Pano" nodeid="node9" copyright="jp-image.space" description="Canon R6 拍攝環景" latitude="" datetime="2025/1/14 11:38" info="" title="麥坊" author="James Lee" heading="0" longitude="" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node11}" tilt="17.7" skinid="ht_node_camera_switch" id="Point02" title="麥坊_iphone" description="切換至使用iphone拍攝的環景照片。&#xa;&#xa;iPhone 16 pro拍攝的照片，在解析度上與單眼拍攝差不多，但因感光元件太小，在色階寬容度上，甚至低過雙魚眼相機。" target="$fwd" pan="-304.85"/>
+      <hotspot url="{node15}" tilt="17.73" skinid="ht_node_camera_switch" id="Point03" title="麥坊_雙魚眼" description="切換至雙魚眼360相機拍攝的環景照片。&#xa;無論是在解析度、色彩的演繹，雙魚眼360相機由於感光元件的大小，色彩深度與解析度都無法與單眼相機匹敵，唯一優點只有輕便。" target="$fwd" pan="-284.23"/>
+      <hotspot url="{node5}" tilt="0.09" skinid="ht_node" id="Point01" title="大廳 英倫小平台" description="" target="$fwd" pan="-46.48"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node11">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="4501" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="4501">
-      <level preload="0" predecode="0" width="4501" height="4501"/>
-      <level preload="0" predecode="0" width="2250" height="2250"/>
-      <level preload="0" predecode="0" width="1125" height="1125"/>
-      <level preload="0" predecode="0" width="562" height="562"/>
-      <level preload="1" predecode="1" width="281" height="281"/>
+    <input levelingroll="0" width="4501" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4501" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="4501" height="4501" predecode="0"/>
+      <level preload="0" width="2250" height="2250" predecode="0"/>
+      <level preload="0" width="1125" height="1125" predecode="0"/>
+      <level preload="0" width="562" height="562" predecode="0"/>
+      <level preload="1" width="281" height="281" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start tilt="-2" pan="0.61" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="-2" pan="0.61"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="" author="" title="麥坊_iphone" datetime="2025:01:13 19:25:34" customnodeid="" nodeid="node11" heading="0" description="" tags="canonR6|demo|JPdemo|Pano" latitude="" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="19.88" target="$fwd" pan="-8.28" title="麥坊" description="切換至使用單眼拍攝的環景照片。&#xa;&#xa;單眼相機拍攝的照片，無論在解析度或是在色彩演繹上，仍然是最佳首選。" skinid="ht_node_camera_switch" id="Point01" url="{node9}"/>
-      <hotspot tilt="19.78" target="$fwd" pan="-348.84" title="麥坊_雙魚眼" description="切換至雙魚眼360相機拍攝的環景照片。&#xa;無論是在解析度、色彩的演繹，雙魚眼360相機由於感光元件的大小，色彩深度與解析度都無法與單眼相機匹敵，唯一優點只有輕便。" skinid="ht_node_camera_switch" id="Point02" url="{node15}"/>
+    <userdata tags="canonR6|demo|JPdemo|Pano" nodeid="node11" copyright="" description="" latitude="" datetime="2025:01:13 19:25:34" info="" title="麥坊_iphone" author="" heading="0" longitude="" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node9}" tilt="19.88" skinid="ht_node_camera_switch" id="Point01" title="麥坊" description="切換至使用單眼拍攝的環景照片。&#xa;&#xa;單眼相機拍攝的照片，無論在解析度或是在色彩演繹上，仍然是最佳首選。" target="$fwd" pan="-8.28"/>
+      <hotspot url="{node15}" tilt="19.78" skinid="ht_node_camera_switch" id="Point02" title="麥坊_雙魚眼" description="切換至雙魚眼360相機拍攝的環景照片。&#xa;無論是在解析度、色彩的演繹，雙魚眼360相機由於感光元件的大小，色彩深度與解析度都無法與單眼相機匹敵，唯一優點只有輕便。" target="$fwd" pan="-348.84"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <panorama id="node15">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelbias="0.400" levelingroll="0" height="2975" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="2975">
-      <level preload="0" predecode="0" width="2975" height="2975"/>
-      <level preload="0" predecode="0" width="1487" height="1487"/>
-      <level preload="0" predecode="0" width="743" height="743"/>
-      <level preload="1" predecode="1" width="371" height="371"/>
+    <input levelingroll="0" width="2975" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2975" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+      <level preload="0" width="2975" height="2975" predecode="0"/>
+      <level preload="0" width="1487" height="1487" predecode="0"/>
+      <level preload="0" width="743" height="743" predecode="0"/>
+      <level preload="1" width="371" height="371" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-70.2416" fovmode="2">
-      <start tilt="1.25" pan="-0.47" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start fov="100" projection="4" tilt="1.25" pan="-0.47"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
       <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330"/>
+      <max fovfisheye="360" fov="140" tilt="90" scaletofit="1" fovstereographic="330" pan="360"/>
     </view>
-    <userdata copyright="" comment="" longitude="121.596894" author="" altitude="212.30" title="麥坊_雙魚眼" datetime="2025/1/6 10:15" customnodeid="" nodeid="node15" heading="-70.2416" description="" tags="dualfisheye|istage|Pano" latitude="23.908133" info="" source=""/>
-    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
-      <label bordercolor="0x000000" border="1" height="20" backgroundcolor="0xffffff" background="1" borderradius="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" wordwrap="1" width="180" textalpha="1" enabled="1"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="19.91" target="$fwd" pan="-12.2" title="麥坊" description="切換至使用單眼拍攝的環景照片。&#xa;&#xa;單眼相機拍攝的照片，無論在解析度或是在色彩演繹上，仍然是最佳首選。" skinid="ht_node_camera_switch" id="Point01" url="{node9}"/>
-      <hotspot tilt="20.11" target="$fwd" pan="-351.21" title="麥坊_iphone" description="切換至使用iphone拍攝的環景照片。iphone 16 pro拍攝的照片，在解析度上與單眼拍攝差不多，但是在色彩演繹上，仍距離單眼品質相當遠。" skinid="ht_node_camera_switch" id="Point02" url="{node11}"/>
-      <hotspot target="$fwd" title="大廳 英倫小平台" distance="15.5733" skinid="ht_node" id="Point03" tilt="0" pan="-130.509" description="" url="{node5}"/>
-      <hotspot target="$fwd" title="大廳日間" distance="14.3978" skinid="ht_node" id="Point04" tilt="0" pan="-56.656" description="" url="{node4}"/>
+    <userdata tags="dualfisheye|istage|Pano" nodeid="node15" altitude="212.30" copyright="" description="" latitude="23.908133" datetime="2025/1/6 10:15" info="" title="麥坊_雙魚眼" author="" heading="-70.2416" longitude="121.596894" customnodeid="" comment="" source=""/>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label backgroundalpha="1" background="1" borderradius="1" width="180" textcolor="0x000000" wordwrap="1" height="20" textalpha="1" bordercolor="0x000000" enabled="1" backgroundcolor="0xffffff" borderalpha="1" border="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot url="{node9}" tilt="19.91" skinid="ht_node_camera_switch" id="Point01" title="麥坊" description="切換至使用單眼拍攝的環景照片。&#xa;&#xa;單眼相機拍攝的照片，無論在解析度或是在色彩演繹上，仍然是最佳首選。" target="$fwd" pan="-12.2"/>
+      <hotspot url="{node11}" tilt="20.11" skinid="ht_node_camera_switch" id="Point02" title="麥坊_iphone" description="切換至使用iphone拍攝的環景照片。iphone 16 pro拍攝的照片，在解析度上與單眼拍攝差不多，但是在色彩演繹上，仍距離單眼品質相當遠。" target="$fwd" pan="-351.21"/>
+      <hotspot url="{node5}" tilt="0" skinid="ht_node" id="Point03" description="" pan="-130.509" title="大廳 英倫小平台" target="$fwd" distance="15.5733"/>
+      <hotspot url="{node4}" tilt="0" skinid="ht_node" id="Point04" description="" pan="-56.656" title="大廳日間" target="$fwd" distance="14.3978"/>
     </hotspots>
     <media/>
-    <transition softedge="0" delay="none" zoomfov="40" type="crossdissolve" zoomout="0" zoomspeed="2" blendcolor="0x000000" blendtime="1" zoomoutpause="1" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomin="0"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
-    <control sensitivity="8" contextvr="0" lockedmouse="0" contextfullscreen="1" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" zoomcentercursor="1" invertwheel="0" hideabout="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1"/>
+    <transition zoomspeed="2" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" delay="none" blendtime="1" type="crossdissolve" enabled="1" zoomfov="40" blendcolor="0x000000" softedge="0" zoomafterinfov="140" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" rubberband="0" hideabout="0" lockedkeyboard="0" simulatemass="1" contextprojections="0" contextvr="0" zoomcentercursor="1"/>
   </panorama>
   <masternode>
-    <userdata copyright="" comment="" author="" title="遠雄悅來" description="遠雄悅來Demo，採用單眼相機以及iphone 16 pro拍攝" tags=""/>
+    <userdata tags="" copyright="" title="遠雄悅來" description="遠雄悅來Demo，採用單眼相機以及iphone 16 pro拍攝" author="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
